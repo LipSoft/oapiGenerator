@@ -1,0 +1,24 @@
+{
+  "name": "oapiGenerator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LipSoft/oapiGenerator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LipSoft/oapiGenerator/issues"
+  },
+  "homepage": "https://github.com/LipSoft/oapiGenerator#readme"
+}
