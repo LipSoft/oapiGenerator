@@ -1,6 +1,6 @@
 'use strict'
 
-const { mysqlToOapi } = require('../lib')
+const { mysqlToOapi, common } = require('../lib')
 
 const config = {
   mysql: {
@@ -11,4 +11,4 @@ const config = {
   }
 }
 
-mysqlToOapi(config).then(res => console.log(JSON.stringify(res)))
+mysqlToOapi(config).then(res => common.saveFile(`../../dist/mysqlToOapi/fromMysql.json`, JSON.stringify(res, null, 2)))
