@@ -23,8 +23,9 @@
   },
   "homepage": "https://github.com/LipSoft/oapiGenerator#readme",
   "dependencies": {
+    "mkdirp": "^0.5.1",
     "mocha": "^6.2.0",
-    "mustache": "^3.0.3",
+    "mustache": "^3.1.0",
     "mysql": "^2.17.1",
     "nyc": "^14.1.1",
     "oas-validator": "^3.3.1"
