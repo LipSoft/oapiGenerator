@@ -7,7 +7,7 @@ const config = {
     host: '192.168.9.3',
     user: 'CI',
     password: 'CI',
-    database: 'CI'
+    database: 'Horis'
   }
 }
 

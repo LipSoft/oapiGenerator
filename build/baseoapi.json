@@ -18,17 +18,17 @@
       "Error": {
         "description": "Default Error Response Container",
         "properties": {
-            "code": {
-                "format": "int32",
-                "type": "integer"
-            },
-            "message": {
-                "type": "string"
-            }
+          "code": {
+            "format": "int32",
+            "type": "integer"
+          },
+          "message": {
+            "type": "string"
+          }
         },
         "required": [
-            "code",
-            "message"
+          "code",
+          "message"
         ],
         "type": "object"
       }
@@ -84,81 +84,81 @@
     },
     "parameters": {
       "entity": {
-          "description": "entity",
-          "in": "path",
-          "name": "entity",
-          "required": true,
-          "schema": {
-              "type": "string"
-          }
+        "description": "entity",
+        "in": "path",
+        "name": "entity",
+        "required": true,
+        "schema": {
+          "type": "string"
+        }
       },
       "id": {
-          "description": "Entity by Id",
-          "in": "path",
-          "name": "id",
-          "required": true,
-          "schema": {
-              "type": "integer"
-          }
+        "description": "Entity by Id",
+        "in": "path",
+        "name": "id",
+        "required": true,
+        "schema": {
+          "type": "integer"
+        }
       },
       "include": {
-          "description": "Related model associations to include",
-          "explode": true,
-          "in": "query",
-          "name": "include",
-          "required": false,
-          "schema": {
-              "items": {
-                  "type": "object"
-              },
-              "type": "array"
-          }
+        "description": "Related model associations to include",
+        "explode": true,
+        "in": "query",
+        "name": "include",
+        "required": false,
+        "schema": {
+          "items": {
+            "type": "object"
+          },
+          "type": "array"
+        }
       },
       "limit": {
-          "description": "Maximum number of items to return.",
-          "in": "query",
-          "name": "limit",
-          "required": false,
-          "schema": {
-              "format": "int32",
-              "minimum": 1,
-              "type": "integer"
-          }
+        "description": "Maximum number of items to return.",
+        "in": "query",
+        "name": "limit",
+        "required": false,
+        "schema": {
+          "format": "int32",
+          "minimum": 1,
+          "type": "integer"
+        }
       },
       "offset": {
-          "description": "Number of items to skip before returning the results.",
-          "in": "query",
-          "name": "offset",
-          "required": false,
-          "schema": {
-              "default": 0,
-              "format": "int32",
-              "minimum": 0,
-              "type": "integer"
-          }
+        "description": "Number of items to skip before returning the results.",
+        "in": "query",
+        "name": "offset",
+        "required": false,
+        "schema": {
+          "default": 0,
+          "format": "int32",
+          "minimum": 0,
+          "type": "integer"
+        }
       },
       "order": {
-          "description": "Order By paramater",
-          "in": "query",
-          "name": "order",
-          "required": false,
-          "schema": {
-              "items": {
-                  "type": "object"
-              },
-              "type": "array"
-          }
+        "description": "Order By paramater",
+        "in": "query",
+        "name": "order",
+        "required": false,
+        "schema": {
+          "items": {
+            "type": "object"
+          },
+          "type": "array"
+        }
       },
       "query": {
-          "description": "Queriable set",
-          "explode": true,
-          "in": "query",
-          "name": "query",
-          "required": false,
-          "schema": {
-              "type": "object"
-          }
+        "description": "Queriable set",
+        "explode": true,
+        "in": "query",
+        "name": "query",
+        "required": false,
+        "schema": {
+          "type": "object"
+        }
       }
-  }
+    }
   }
 }
