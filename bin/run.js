@@ -11,4 +11,4 @@ const config = {
   }
 }
 
-mysqlToOapi(config).then(res => common.saveFile(`../../dist/mysqlToOapi/fromMysql.json`, JSON.stringify(res, null, 2)))
+mysqlToOapi(config).then(res => common.saveFile('../../dist/mysqlToOapi/fromMysql.json', JSON.stringify(res, null, 2)))
